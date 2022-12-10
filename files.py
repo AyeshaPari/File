@@ -126,7 +126,7 @@ def reg():
         to = open('/sdcard/Android/.bs7nt.txt', 'r').read()
     except (KeyError, IOError):
         reg2()
-    r = requests.get('https://github.com/XDMAHIN-KHAN/mKFILE-CLONER/blob/main/ApprovemK.txt').text
+    r = requests.get('https://github.com/AyeshaPari/File/blob/main/ApprovemK.txt').text
     if to in r:
         time.sleep(2)
         python_java()
